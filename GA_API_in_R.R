@@ -42,7 +42,7 @@ user_id_metrics = function(date_start,date_end){
   return(fetched_data)
 }
 
-################################################# USER ID PLAY SONG ####################################################
+################################################# USER ID METRICS ####################################################
 # create empty data frame
 user_id_metrics = data.frame(date=as.Date(character()),
                         dimension1=character(), 
